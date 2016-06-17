@@ -3,7 +3,7 @@ spoken-website
 
 Spoken tutorial website in django
 
-## Getting Started 
+## Getting Started
 
 Make sure you have virtualenv and mysql server running locally.
 
@@ -16,4 +16,12 @@ $ ./bin/setup.sh
 
 # Now run the local development server with:
 $ ./bin/devserver.sh
+```
+
+
+## Running test
+
+```
+flake8
+py.test
 ```
